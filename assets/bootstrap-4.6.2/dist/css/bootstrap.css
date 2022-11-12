@@ -63,7 +63,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(211, 207, 207);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -80,7 +80,10 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
-
+h1 {
+  margin-left: 37vw;
+  transform: translate(1);
+}
 p {
   margin-top: 0;
   margin-bottom: 1rem;
@@ -9423,3 +9426,7 @@ h3 {
     border-color: #dee2e6;
   }
 }/*# sourceMappingURL=bootstrap.css.map */
+.card {
+left: 26vw;
+margin-top: 5vh;
+}
